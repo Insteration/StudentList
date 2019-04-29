@@ -14,6 +14,7 @@
 		4A839B64227773D800569047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A839B63227773D800569047 /* Assets.xcassets */; };
 		4A839B67227773D800569047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A839B65227773D800569047 /* LaunchScreen.storyboard */; };
 		4AF51D90227775250098321A /* CoreDataPersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF51D8F227775250098321A /* CoreDataPersistenceService.swift */; };
+		4AF51D92227777F80098321A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF51D91227777F80098321A /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4A839B66227773D800569047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A839B68227773D800569047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AF51D8F227775250098321A /* CoreDataPersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPersistenceService.swift; sourceTree = "<group>"; };
+		4AF51D91227777F80098321A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				4A839B59227773D400569047 /* AppDelegate.swift */,
 				4A839B5B227773D400569047 /* ViewController.swift */,
 				4A839B5D227773D400569047 /* Main.storyboard */,
+				4AF51D91227777F80098321A /* TableViewController.swift */,
 				4A839B63227773D800569047 /* Assets.xcassets */,
 				4A839B65227773D800569047 /* LaunchScreen.storyboard */,
 				4A839B68227773D800569047 /* Info.plist */,
@@ -144,6 +147,7 @@
 				4A839B62227773D400569047 /* StudentList.xcdatamodeld in Sources */,
 				4A839B5C227773D400569047 /* ViewController.swift in Sources */,
 				4A839B5A227773D400569047 /* AppDelegate.swift in Sources */,
+				4AF51D92227777F80098321A /* TableViewController.swift in Sources */,
 				4AF51D90227775250098321A /* CoreDataPersistenceService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

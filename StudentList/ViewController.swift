@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var studentListTableView: UITableView!
+    
+    let students = ["Ivan", "Miroslav", "Gurgen"]
     // First commit
 
     override func viewDidLoad() {
@@ -25,12 +27,14 @@ class ViewController: UIViewController {
 
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return students.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .default, reuseIdentifier: "Cell")
-        cell.textLabel?.text = "123"
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        
+        cell.textLabel?.text = students[indexPath.row]
+        
         return cell
     }
     
